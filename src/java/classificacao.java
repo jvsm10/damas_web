@@ -52,7 +52,16 @@ public class classificacao extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet classificao</title>");            
+            out.println("<title>Servlet classificação</title>");
+            out.println("<style>"
+                    + "table, th, td {" +
+                        "  border: 1px solid black;"
+                    + "margin:auto;" +
+                        "}"
+                    + "h1{"
+                    + "text-align:center;"
+                    + "}"
+                    + "</style>");
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Classificação</h1>");

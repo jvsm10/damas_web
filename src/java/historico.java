@@ -52,10 +52,19 @@ public class historico extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet historico</title>");            
+            out.println("<title>Servlet histórico</title>");
+            out.println("<style>"
+                    + "table, th, td {" +
+                        "  border: 1px solid black;"
+                    + "margin:auto;" +
+                        "}"
+                    + "h1{"
+                    + "text-align:center;"
+                    + "}"
+                    + "</style>");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Historico</h1>");
+            out.println("<h1>Histórico</h1>");
             out.println("<table>");
             out.println("<tr>");
             out.println("<td> Data</td>");
